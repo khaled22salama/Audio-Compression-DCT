@@ -77,14 +77,14 @@ The **Discrete Cosine Transform (DCT)** is a mathematical technique used to tran
 The DCT transforms an input signal into a sum of cosine functions at different frequencies. Mathematically, for an audio signal \( x[n] \) with \( N \) samples, the DCT of type-II is defined as:
 
 \[
-X[k] = \sum_{n=0}^{N-1} x[n] \cdot \cos \left( \frac{\pi}{N} \left( n + \frac{1}{2} \right) k \right) \quad \text{for } k = 0, 1, \ldots, N-1
+$X[k] = \sum_{n=0}^{N-1} x[n] \cdot \cos \left( \frac{\pi}{N} \left( n + \frac{1}{2} \right) k \right) \quad \text{for } k = 0, 1, \ldots, N-1
 \]
 
 where:
 
-- \( X[k] \) represents the DCT coefficient for frequency component \( k \).
-- \( x[n] \) is the input audio signal at time \( n \).
-- \( N \) is the total number of samples in the signal.
+- $\( X[k] \) represents the DCT coefficient for frequency component \( k \).
+- $\( x[n] \) is the input audio signal at time \( n \).
+- $\( N \) is the total number of samples in the signal.
 
 #### Inverse DCT (IDCT)
 
